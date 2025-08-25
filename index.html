@@ -1,0 +1,99 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben_Daoud_Profile.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="image/log.png" >
+    <script src="script.js"></script>
+</head>
+
+<body>
+     <div class="top-bar">
+       <!-- <div class="logo">
+       <img src="image/logo.png" alt="logo" width="105px">
+       </div> -->
+       <div class="bar"> 
+       <a href="#about-me" class="home"> about me</a>
+       <a href="#content-info">content info</a>
+       <a href="#Skills">Skills</a> 
+       <a href="#projects">Projects</a> 
+        <a href="#Reco-bar">Recommendations</a>
+      </div>
+    </div>  
+    <div class="about-me" >
+        <div class="title">
+        <span class="hi">The Web is My Canvas </span> 
+        <h3>I Paint with Code</h3>
+        </div> 
+         <div class="intro" id="about-me">
+            <div class="about-img ">
+             <img src="image/logo.png" alt="profile">
+            </div>
+            <p>Hi, I’m Ayoub Ben Daoud, a passionate <span> web developer </span>and software engineering student. <br>
+             I love transforming ideas into interactive websites and digital experiences that tell a story. <br>
+             For me, code is more than just syntax  <br>
+             it’s a creative tool to build, design, and share meaningful projects with the world.</p>
+         </div>
+    </div>
+    <div>
+
+    </div>
+    <div class="Skills" id="Skills">
+        <span>EXPERIENCE WITH </span>
+        <div class="skill-img">
+            <img src="image/css.png" alt="css" >
+            <img src="image/html.png" alt="html">
+            <img src="image/javascript.png" alt="js" ">
+            <img src="image/nodejs.png" alt="node" >
+            <img src="image/reactjs.png" alt="reactjs">
+        </div>
+        <div class="projects" id="projects">
+            <span>PROJECTS</span>
+            <div class="projectimg">
+              <a href="https://github.com/AYOU000/todo-app" target="_blank" rel="noopener noreferrer"><img src="image/project-01.png" alt="project-01" ></a>
+              <a href="https://github.com/AYOU000/game_web" target="_blank" rel="noopener noreferrer"><img src="image/project-02.png" alt="project-02"></a>
+            </div>
+        </div>
+    </div>
+    <div class="commnt"> 
+        <h2>Recommendations </h2>
+       <ul class="Reco" id="Reco">
+        <li> <span>“I’m building my future line by line, just like code. Every challenge is a chance to grow, and every step takes me closer to becoming the software engineer I aspire to be.”</span></li>
+       </ul>
+    </div>
+    <form class="Reco-bar" id="Reco-bar">
+         <div class="Recommendations"> 
+        <span>Leave a Recommendations</span>
+        <input id="name" type="text" class="name" placeholder="Name(Optional)">
+        <textarea id="comment" name="question" cols="30" rows="10" placeholder="comment" required></textarea>
+        </div>
+        <button onclick="addReco()"><input type="submit" value="Submit" class="Submit"></button>
+    </form>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+    <div class="content-info" id="content-info">
+    <div class="content">
+        <span><i class="fa-solid fa-envelope"></i>benayoub0908@gmail.com</span><br>
+        <a href="https://www.linkedin.com/in/ayoub-ben-daoud-43359a324/" target="_blank" rel="noopener noreferrer" ><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/AYOU000" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/webdev_ma/"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <div class="footer">
+     <footer>
+        &copy; 2025 Ben_Daoud_Profile.com
+     </footer>
+     </div>
+    </div>
+    <div id="popup" class="popup">
+  <p>Thank you! Your recommendation has been submitted.</p>
+  <button onclick="closePopup()">Close</button>
+</div>
+</body>
+</div>
+</html>
